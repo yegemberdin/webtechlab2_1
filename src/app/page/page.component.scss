@@ -1,0 +1,40 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .block {
+        padding: 10px;
+    }
+
+    .left-side {
+        border-right: solid 2px #333;
+        width: 25%;
+        h4 { 
+            text-align: center;
+        }
+    }
+    .content {
+        text-align: center;
+        width: 50%;
+        img {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+    }
+    .right-side {
+        border-left: solid 2px #333;
+        width: 25%;
+        h4 { 
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            margin: 5px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+    }
+} 
